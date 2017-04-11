@@ -1,0 +1,14 @@
+TU(
+	Types:
+		,
+	Globals:
+		,
+	Initializer:
+		,
+	Functions:
+		IMP_main : (()->int<4>) => AP(rec IMP_main.{IMP_main=fun() {{merge(parallel(job (bind(){rec _ins_omp_parallel_0.{_ins_omp_parallel_0=fun() {{IMP_printf(rec ptr_from_array.{ptr_from_array=fun(ref<ref<array<'a,'s>,'c,'v,plain>,f,f,plain> v0) {return tuple(ref_reinterpret(ref_deref(v0), type<array<'a,inf>>),0);}}("Thread: #(%d)"), varlist_pack(tuple(rec num_cast.{num_cast=fun(ref<'a,f,f,plain> v0, ref<type<'b>,f,f,plain> v1) {return cast<'b>(ref_deref(v0));}}(get_thread_id(0), type<int<4>>))));}; merge_all();}}()})));}; return 0;}}),
+	Entry Points:
+		{},
+	is C++:
+		1
+)
