@@ -15,11 +15,12 @@ Following is an overview of all examples including a short description:
 | exp8   | Mapping from OpenMP's synchronization using barriers to INSPIRE |
 
 Each example directory contains six files. These are:
-| File | Description |
-| --------- | ----------- |
-| exp\*.cpp | The OpenMP source code |
-| exp\*\_ir.cpp | The INSPIRE intermediate representation |
+
+| File             | Description |
+| ---------        | ----------- |
+| exp\*.cpp        | The OpenMP source code |
+| exp\*\_ir.cpp    | The INSPIRE intermediate representation |
 | exp\*\_json.json | The INSPIRE intermediate representation as JSON |
-| exp\*\_tree.txt | The INSPIRE intermediate representation as a tree |
-| exp\*\_trg.cpp | The target code deduced from the intermediate representation |
-| exp\*\_tu.txt | The translation unit |
+| exp\*\_tree.txt  | The INSPIRE intermediate representation as a tree |
+| exp\*\_trg.cpp   | The target code deduced from the intermediate representation |
+| exp\*\_tu.txt    | The translation unit |
