@@ -1,0 +1,14 @@
+TU(
+	Types:
+		,
+	Globals:
+		,
+	Initializer:
+		,
+	Functions:
+		IMP_main : (()->int<4>) => AP(rec IMP_main.{IMP_main=fun() {ref<int<4>,f,f,plain> v1 = 4; {merge(parallel(job (bind(){rec _ins_omp_parallel_0.{_ins_omp_parallel_0=fun(ref<ref<int<4>,f,f,plain>,f,f,plain> v0) {{for(int<4> v1 = 0 .. 100 : 1) {rec comp_assign_add.{comp_assign_add=fun(ref<ref<'a,f,f,plain>,f,f,plain> v0, ref<'b,f,f,plain> v1) {ref_assign(ref_deref(v0), rec num_cast.{num_cast=fun(ref<'a,f,f,plain> v0, ref<type<'b>,f,f,plain> v1) {return cast<'b>(ref_deref(v0));}}(gen_add(rec num_cast.{num_cast=fun(ref<'a,f,f,plain> v0, ref<type<'b>,f,f,plain> v1) {return cast<'b>(ref_deref(v0));}}(ref_deref(ref_deref(v0)), type<'b>), ref_deref(v1)), type<'a>)); return ref_deref(v0);}}(ref_deref(v0), v1);};}; merge_all();}}(v1)})));}; return 0;}}),
+	Entry Points:
+		{},
+	is C++:
+		1
+)

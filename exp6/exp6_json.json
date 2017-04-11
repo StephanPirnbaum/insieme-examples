@@ -1,0 +1,1448 @@
+{
+    "root": "0xc40040",
+    "0xc40040": {
+        "Kind": "Program",
+        "Children": [
+            "0xbdbaa0"
+        ]
+    },
+    "0xbdbaa0": {
+        "Kind": "LambdaExpr",
+        "Children": [
+            "0xbc15a0",
+            "0xbf61a0",
+            "0xbdba00"
+        ]
+    },
+    "0xbc15a0": {
+        "Kind": "FunctionType",
+        "Children": [
+            "0xba7c20",
+            "0xbc1050",
+            "0xbc1170",
+            "0xba7c20"
+        ]
+    },
+    "0xba7c20": {
+        "Kind": "Types"
+    },
+    "0xbc1050": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc0f80",
+            "0xb77fd0",
+            "0xbc0ea0"
+        ]
+    },
+    "0xbc0f80": {
+        "Kind": "StringValue",
+        "Value": "int"
+    },
+    "0xb77fd0": {
+        "Kind": "Parents"
+    },
+    "0xbc0ea0": {
+        "Kind": "Types",
+        "Children": [
+            "0xbc0db0"
+        ]
+    },
+    "0xbc0db0": {
+        "Kind": "NumericType",
+        "Children": [
+            "0xbc0d20"
+        ]
+    },
+    "0xbc0d20": {
+        "Kind": "Literal",
+        "Children": [
+            "0xbc5230",
+            "0xbc56a0"
+        ]
+    },
+    "0xbc5230": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc5020",
+            "0xb77fd0",
+            "0xbc4f40"
+        ]
+    },
+    "0xbc5020": {
+        "Kind": "StringValue",
+        "Value": "uint"
+    },
+    "0xbc4f40": {
+        "Kind": "Types",
+        "Children": [
+            "0xbc4e50"
+        ]
+    },
+    "0xbc4e50": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc4d30",
+            "0xb77fd0",
+            "0xba7c20"
+        ]
+    },
+    "0xbc4d30": {
+        "Kind": "StringValue",
+        "Value": "inf"
+    },
+    "0xbc56a0": {
+        "Kind": "StringValue",
+        "Value": "4"
+    },
+    "0xbc1170": {
+        "Kind": "UIntValue",
+        "Value": "1"
+    },
+    "0xbf61a0": {
+        "Kind": "LambdaReference",
+        "Children": [
+            "0xbc15a0",
+            "0xbc1510"
+        ]
+    },
+    "0xbc1510": {
+        "Kind": "StringValue",
+        "Value": "IMP_main"
+    },
+    "0xbdba00": {
+        "Kind": "LambdaDefinition",
+        "Children": [
+            "0xba69f0"
+        ]
+    },
+    "0xba69f0": {
+        "Kind": "LambdaBinding",
+        "Children": [
+            "0xbf61a0",
+            "0xba6960"
+        ]
+    },
+    "0xba6960": {
+        "Kind": "Lambda",
+        "Children": [
+            "0xbc15a0",
+            "0xbefa10",
+            "0xba68c0"
+        ]
+    },
+    "0xbefa10": {
+        "Kind": "Parameters"
+    },
+    "0xba68c0": {
+        "Kind": "CompoundStmt",
+        "Children": [
+            "0xc3ef60",
+            "0xba65a0",
+            "0xbcb740"
+        ]
+    },
+    "0xc3ef60": {
+        "Kind": "DeclarationStmt",
+        "Children": [
+            "0xbb6330",
+            "0xc3eed0"
+        ]
+    },
+    "0xbb6330": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbb8360",
+            "0xbb4e70"
+        ]
+    },
+    "0xbb8360": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc4580",
+            "0xb77fd0",
+            "0xbb8260"
+        ]
+    },
+    "0xbc4580": {
+        "Kind": "StringValue",
+        "Value": "ref"
+    },
+    "0xbb8260": {
+        "Kind": "Types",
+        "Children": [
+            "0xbc1050",
+            "0xbc3ff0",
+            "0xbc3ff0",
+            "0xbc5110"
+        ]
+    },
+    "0xbc3ff0": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc3f00",
+            "0xb77fd0",
+            "0xba7c20"
+        ]
+    },
+    "0xbc3f00": {
+        "Kind": "StringValue",
+        "Value": "f"
+    },
+    "0xbc5110": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc4080",
+            "0xb77fd0",
+            "0xba7c20"
+        ]
+    },
+    "0xbc4080": {
+        "Kind": "StringValue",
+        "Value": "plain"
+    },
+    "0xbb4e70": {
+        "Kind": "Literal",
+        "Children": [
+            "0xbc1050",
+            "0xbc56a0"
+        ]
+    },
+    "0xc3eed0": {
+        "Kind": "Variable",
+        "Children": [
+            "0xbb8360",
+            "0xba08b0"
+        ]
+    },
+    "0xba08b0": {
+        "Kind": "UIntValue",
+        "Value": "25"
+    },
+    "0xba65a0": {
+        "Kind": "CompoundStmt",
+        "Children": [
+            "0xba6500"
+        ]
+    },
+    "0xba6500": {
+        "Kind": "CallExpr",
+        "Children": [
+            "0xbc1360",
+            "0xb9e8b0",
+            "0xc3f6b0"
+        ]
+    },
+    "0xbc1360": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbb34f0",
+            "0xb77fd0",
+            "0xba7c20"
+        ]
+    },
+    "0xbb34f0": {
+        "Kind": "StringValue",
+        "Value": "unit"
+    },
+    "0xb9e8b0": {
+        "Kind": "Literal",
+        "Children": [
+            "0xa6ee50",
+            "0xa6f330"
+        ]
+    },
+    "0xa6ee50": {
+        "Kind": "FunctionType",
+        "Children": [
+            "0xa6ed70",
+            "0xbc1360",
+            "0xbc1170",
+            "0xba7c20"
+        ]
+    },
+    "0xa6ed70": {
+        "Kind": "Types",
+        "Children": [
+            "0xa6e1b0"
+        ]
+    },
+    "0xa6e1b0": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xa6e070",
+            "0xb77fd0",
+            "0xba7c20"
+        ]
+    },
+    "0xa6e070": {
+        "Kind": "StringValue",
+        "Value": "threadgroup"
+    },
+    "0xa6f330": {
+        "Kind": "StringValue",
+        "Value": "merge"
+    },
+    "0xc3f6b0": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xa6f780",
+            "0xc3f610"
+        ]
+    },
+    "0xa6f780": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc4580",
+            "0xb77fd0",
+            "0xa6f680"
+        ]
+    },
+    "0xa6f680": {
+        "Kind": "Types",
+        "Children": [
+            "0xa6e1b0",
+            "0xbc3ff0",
+            "0xbc3ff0",
+            "0xbc5110"
+        ]
+    },
+    "0xc3f610": {
+        "Kind": "CallExpr",
+        "Children": [
+            "0xa6e1b0",
+            "0xa6d030",
+            "0xbdafa0"
+        ]
+    },
+    "0xa6d030": {
+        "Kind": "Literal",
+        "Children": [
+            "0xa6e390",
+            "0xa6e7f0"
+        ]
+    },
+    "0xa6e390": {
+        "Kind": "FunctionType",
+        "Children": [
+            "0xa6e280",
+            "0xa6e1b0",
+            "0xbc1170",
+            "0xba7c20"
+        ]
+    },
+    "0xa6e280": {
+        "Kind": "Types",
+        "Children": [
+            "0xa6b360"
+        ]
+    },
+    "0xa6b360": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xb7b100",
+            "0xb77fd0",
+            "0xba7c20"
+        ]
+    },
+    "0xb7b100": {
+        "Kind": "StringValue",
+        "Value": "job"
+    },
+    "0xa6e7f0": {
+        "Kind": "StringValue",
+        "Value": "parallel"
+    },
+    "0xbdafa0": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xa6ebb0",
+            "0xbdaf10"
+        ]
+    },
+    "0xa6ebb0": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc4580",
+            "0xb77fd0",
+            "0xa6eb10"
+        ]
+    },
+    "0xa6eb10": {
+        "Kind": "Types",
+        "Children": [
+            "0xa6b360",
+            "0xbc3ff0",
+            "0xbc3ff0",
+            "0xbc5110"
+        ]
+    },
+    "0xbdaf10": {
+        "Kind": "JobExpr",
+        "Children": [
+            "0xa6b360",
+            "0xa6de80",
+            "0xbc70f0"
+        ]
+    },
+    "0xa6de80": {
+        "Kind": "CallExpr",
+        "Children": [
+            "0xa69d50",
+            "0xb7b260",
+            "0xa6ddf0"
+        ]
+    },
+    "0xa69d50": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xa69c40",
+            "0xb77fd0",
+            "0xba7c20"
+        ]
+    },
+    "0xa69c40": {
+        "Kind": "StringValue",
+        "Value": "JobRange"
+    },
+    "0xb7b260": {
+        "Kind": "Literal",
+        "Children": [
+            "0xa69f00",
+            "0xa69f90"
+        ]
+    },
+    "0xa69f00": {
+        "Kind": "FunctionType",
+        "Children": [
+            "0xa69e20",
+            "0xa69d50",
+            "0xbc1170",
+            "0xba7c20"
+        ]
+    },
+    "0xa69e20": {
+        "Kind": "Types",
+        "Children": [
+            "0xbc5a90"
+        ]
+    },
+    "0xbc5a90": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc5020",
+            "0xb77fd0",
+            "0xbbfec0"
+        ]
+    },
+    "0xbbfec0": {
+        "Kind": "Types",
+        "Children": [
+            "0xbbefc0"
+        ]
+    },
+    "0xbbefc0": {
+        "Kind": "NumericType",
+        "Children": [
+            "0xbbef30"
+        ]
+    },
+    "0xbbef30": {
+        "Kind": "Literal",
+        "Children": [
+            "0xbc5230",
+            "0xbbfa60"
+        ]
+    },
+    "0xbbfa60": {
+        "Kind": "StringValue",
+        "Value": "8"
+    },
+    "0xa69f90": {
+        "Kind": "StringValue",
+        "Value": "create_min_range"
+    },
+    "0xa6ddf0": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xa6dd60",
+            "0xa6c510"
+        ]
+    },
+    "0xa6dd60": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc4580",
+            "0xb77fd0",
+            "0xa6dcc0"
+        ]
+    },
+    "0xa6dcc0": {
+        "Kind": "Types",
+        "Children": [
+            "0xbc5a90",
+            "0xbc3ff0",
+            "0xbc3ff0",
+            "0xbc5110"
+        ]
+    },
+    "0xa6c510": {
+        "Kind": "Literal",
+        "Children": [
+            "0xbc5a90",
+            "0xbb5a30"
+        ]
+    },
+    "0xbb5a30": {
+        "Kind": "StringValue",
+        "Value": "1"
+    },
+    "0xbc70f0": {
+        "Kind": "BindExpr",
+        "Children": [
+            "0xb7a120",
+            "0xbefa10",
+            "0xbc7050"
+        ]
+    },
+    "0xb7a120": {
+        "Kind": "FunctionType",
+        "Children": [
+            "0xba7c20",
+            "0xbc1360",
+            "0xbb6840",
+            "0xba7c20"
+        ]
+    },
+    "0xbb6840": {
+        "Kind": "UIntValue",
+        "Value": "2"
+    },
+    "0xbc7050": {
+        "Kind": "CallExpr",
+        "Children": [
+            "0xbc1360",
+            "0xa66cd0",
+            "0xb9fbc0"
+        ]
+    },
+    "0xa66cd0": {
+        "Kind": "LambdaExpr",
+        "Children": [
+            "0xb79990",
+            "0xba5660",
+            "0xbdae10"
+        ]
+    },
+    "0xb79990": {
+        "Kind": "FunctionType",
+        "Children": [
+            "0xbb5000",
+            "0xbc1360",
+            "0xbc1170",
+            "0xba7c20"
+        ]
+    },
+    "0xbb5000": {
+        "Kind": "Types",
+        "Children": [
+            "0xbb8360"
+        ]
+    },
+    "0xba5660": {
+        "Kind": "LambdaReference",
+        "Children": [
+            "0xb79990",
+            "0xa68370"
+        ]
+    },
+    "0xa68370": {
+        "Kind": "StringValue",
+        "Value": "_ins_omp_parallel_1"
+    },
+    "0xbdae10": {
+        "Kind": "LambdaDefinition",
+        "Children": [
+            "0xba6b10"
+        ]
+    },
+    "0xba6b10": {
+        "Kind": "LambdaBinding",
+        "Children": [
+            "0xba5660",
+            "0xa6bcf0"
+        ]
+    },
+    "0xa6bcf0": {
+        "Kind": "Lambda",
+        "Children": [
+            "0xb79990",
+            "0xb9e2f0",
+            "0xa6be30"
+        ]
+    },
+    "0xb9e2f0": {
+        "Kind": "Parameters",
+        "Children": [
+            "0xb9db40"
+        ]
+    },
+    "0xb9db40": {
+        "Kind": "Variable",
+        "Children": [
+            "0xb78bc0",
+            "0xbd50b0"
+        ]
+    },
+    "0xb78bc0": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc4580",
+            "0xb77fd0",
+            "0xb78b20"
+        ]
+    },
+    "0xb78b20": {
+        "Kind": "Types",
+        "Children": [
+            "0xbb8360",
+            "0xbc3ff0",
+            "0xbc3ff0",
+            "0xbc5110"
+        ]
+    },
+    "0xbd50b0": {
+        "Kind": "UIntValue",
+        "Value": "0"
+    },
+    "0xa6be30": {
+        "Kind": "CompoundStmt",
+        "Children": [
+            "0xa6bd90",
+            "0xb9d770"
+        ]
+    },
+    "0xa6bd90": {
+        "Kind": "CompoundStmt",
+        "Children": [
+            "0xa6bb10"
+        ]
+    },
+    "0xa6bb10": {
+        "Kind": "ForStmt",
+        "Children": [
+            "0xb9e480",
+            "0xbbe9c0",
+            "0xbe2de0",
+            "0xa6bc50"
+        ]
+    },
+    "0xb9e480": {
+        "Kind": "DeclarationStmt",
+        "Children": [
+            "0xbe1ff0",
+            "0xb9df40"
+        ]
+    },
+    "0xbe1ff0": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbc1050",
+            "0xbc4200"
+        ]
+    },
+    "0xbc4200": {
+        "Kind": "Literal",
+        "Children": [
+            "0xbc1050",
+            "0xbc4110"
+        ]
+    },
+    "0xbc4110": {
+        "Kind": "StringValue",
+        "Value": "0"
+    },
+    "0xb9df40": {
+        "Kind": "Variable",
+        "Children": [
+            "0xbc1050",
+            "0xbc1170"
+        ]
+    },
+    "0xbbe9c0": {
+        "Kind": "Literal",
+        "Children": [
+            "0xbc1050",
+            "0xbbe930"
+        ]
+    },
+    "0xbbe930": {
+        "Kind": "StringValue",
+        "Value": "100"
+    },
+    "0xbe2de0": {
+        "Kind": "Literal",
+        "Children": [
+            "0xbc1050",
+            "0xbb5a30"
+        ]
+    },
+    "0xa6bc50": {
+        "Kind": "CompoundStmt",
+        "Children": [
+            "0xa6bbb0"
+        ]
+    },
+    "0xa6bbb0": {
+        "Kind": "CallExpr",
+        "Children": [
+            "0xbb8360",
+            "0xbcdc00",
+            "0xa6b940",
+            "0xa6ba80"
+        ]
+    },
+    "0xbcdc00": {
+        "Kind": "LambdaExpr",
+        "Children": [
+            "0xbf0da0",
+            "0xbd94e0",
+            "0xbcda80"
+        ]
+    },
+    "0xbf0da0": {
+        "Kind": "FunctionType",
+        "Children": [
+            "0xbe7680",
+            "0xbc4650",
+            "0xbc1170",
+            "0xba7c20"
+        ]
+    },
+    "0xbe7680": {
+        "Kind": "Types",
+        "Children": [
+            "0xbc4650",
+            "0xbd4350"
+        ]
+    },
+    "0xbc4650": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc4580",
+            "0xb77fd0",
+            "0xbc4480"
+        ]
+    },
+    "0xbc4480": {
+        "Kind": "Types",
+        "Children": [
+            "0xbc3640",
+            "0xbc3ff0",
+            "0xbc3ff0",
+            "0xbc5110"
+        ]
+    },
+    "0xbc3640": {
+        "Kind": "TypeVariable",
+        "Children": [
+            "0xbc3570"
+        ]
+    },
+    "0xbc3570": {
+        "Kind": "StringValue",
+        "Value": "a"
+    },
+    "0xbd4350": {
+        "Kind": "TypeVariable",
+        "Children": [
+            "0xbd42c0"
+        ]
+    },
+    "0xbd42c0": {
+        "Kind": "StringValue",
+        "Value": "b"
+    },
+    "0xbd94e0": {
+        "Kind": "LambdaReference",
+        "Children": [
+            "0xbf0da0",
+            "0xbcee00"
+        ]
+    },
+    "0xbcee00": {
+        "Kind": "StringValue",
+        "Value": "comp_assign_add"
+    },
+    "0xbcda80": {
+        "Kind": "LambdaDefinition",
+        "Children": [
+            "0xbd9570"
+        ]
+    },
+    "0xbd9570": {
+        "Kind": "LambdaBinding",
+        "Children": [
+            "0xbd94e0",
+            "0xbcd7e0"
+        ]
+    },
+    "0xbcd7e0": {
+        "Kind": "Lambda",
+        "Children": [
+            "0xbf0da0",
+            "0xbe7810",
+            "0xbcd740"
+        ]
+    },
+    "0xbe7810": {
+        "Kind": "Parameters",
+        "Children": [
+            "0xbe6b70",
+            "0xbe6ac0"
+        ]
+    },
+    "0xbe6b70": {
+        "Kind": "Variable",
+        "Children": [
+            "0xbe93b0",
+            "0xbd50b0"
+        ]
+    },
+    "0xbe93b0": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc4580",
+            "0xb77fd0",
+            "0xbe8c30"
+        ]
+    },
+    "0xbe8c30": {
+        "Kind": "Types",
+        "Children": [
+            "0xbc4650",
+            "0xbc3ff0",
+            "0xbc3ff0",
+            "0xbc5110"
+        ]
+    },
+    "0xbe6ac0": {
+        "Kind": "Variable",
+        "Children": [
+            "0xbd0120",
+            "0xbc1170"
+        ]
+    },
+    "0xbd0120": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc4580",
+            "0xb77fd0",
+            "0xbd0020"
+        ]
+    },
+    "0xbd0020": {
+        "Kind": "Types",
+        "Children": [
+            "0xbd4350",
+            "0xbc3ff0",
+            "0xbc3ff0",
+            "0xbc5110"
+        ]
+    },
+    "0xbcd740": {
+        "Kind": "CompoundStmt",
+        "Children": [
+            "0xbcd570",
+            "0xbcd610"
+        ]
+    },
+    "0xbcd570": {
+        "Kind": "CallExpr",
+        "Children": [
+            "0xbc1360",
+            "0xbd4ad0",
+            "0xbe9230",
+            "0xbce6d0"
+        ]
+    },
+    "0xbd4ad0": {
+        "Kind": "Literal",
+        "Children": [
+            "0xbe3d90",
+            "0xbe3980"
+        ]
+    },
+    "0xbe3d90": {
+        "Kind": "FunctionType",
+        "Children": [
+            "0xbe3cd0",
+            "0xbc1360",
+            "0xbc1170",
+            "0xba7c20"
+        ]
+    },
+    "0xbe3cd0": {
+        "Kind": "Types",
+        "Children": [
+            "0xbe3bc0",
+            "0xbc3640"
+        ]
+    },
+    "0xbe3bc0": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc4580",
+            "0xb77fd0",
+            "0xbe3a80"
+        ]
+    },
+    "0xbe3a80": {
+        "Kind": "Types",
+        "Children": [
+            "0xbc3640",
+            "0xbc3ff0",
+            "0xbb6d20",
+            "0xbb6ea0"
+        ]
+    },
+    "0xbb6d20": {
+        "Kind": "TypeVariable",
+        "Children": [
+            "0xbb6c50"
+        ]
+    },
+    "0xbb6c50": {
+        "Kind": "StringValue",
+        "Value": "v"
+    },
+    "0xbb6ea0": {
+        "Kind": "TypeVariable",
+        "Children": [
+            "0xbb6dd0"
+        ]
+    },
+    "0xbb6dd0": {
+        "Kind": "StringValue",
+        "Value": "k"
+    },
+    "0xbe3980": {
+        "Kind": "StringValue",
+        "Value": "ref_assign"
+    },
+    "0xbe9230": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbbccb0",
+            "0xbcddb0"
+        ]
+    },
+    "0xbbccb0": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc4580",
+            "0xb77fd0",
+            "0xbbcb80"
+        ]
+    },
+    "0xbbcb80": {
+        "Kind": "Types",
+        "Children": [
+            "0xbe3bc0",
+            "0xbc3ff0",
+            "0xbc3ff0",
+            "0xbc5110"
+        ]
+    },
+    "0xbcddb0": {
+        "Kind": "CallExpr",
+        "Children": [
+            "0xbc4650",
+            "0xbb6190",
+            "0xbe7c30"
+        ]
+    },
+    "0xbb6190": {
+        "Kind": "Literal",
+        "Children": [
+            "0xbbdd20",
+            "0xbbdfc0"
+        ]
+    },
+    "0xbbdd20": {
+        "Kind": "FunctionType",
+        "Children": [
+            "0xbb7220",
+            "0xbc3640",
+            "0xbc1170",
+            "0xba7c20"
+        ]
+    },
+    "0xbb7220": {
+        "Kind": "Types",
+        "Children": [
+            "0xbb7130"
+        ]
+    },
+    "0xbb7130": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc4580",
+            "0xb77fd0",
+            "0xbb6ff0"
+        ]
+    },
+    "0xbb6ff0": {
+        "Kind": "Types",
+        "Children": [
+            "0xbc3640",
+            "0xbb6b80",
+            "0xbb6d20",
+            "0xbb6ea0"
+        ]
+    },
+    "0xbb6b80": {
+        "Kind": "TypeVariable",
+        "Children": [
+            "0xbb5380"
+        ]
+    },
+    "0xbb5380": {
+        "Kind": "StringValue",
+        "Value": "c"
+    },
+    "0xbbdfc0": {
+        "Kind": "StringValue",
+        "Value": "ref_deref"
+    },
+    "0xbe7c30": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbbe770",
+            "0xbe6b70"
+        ]
+    },
+    "0xbbe770": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc4580",
+            "0xb77fd0",
+            "0xbbe670"
+        ]
+    },
+    "0xbbe670": {
+        "Kind": "Types",
+        "Children": [
+            "0xbb7130",
+            "0xbc3ff0",
+            "0xbc3ff0",
+            "0xbc5110"
+        ]
+    },
+    "0xbce6d0": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbc4650",
+            "0xbce770"
+        ]
+    },
+    "0xbce770": {
+        "Kind": "CallExpr",
+        "Children": [
+            "0xbc3640",
+            "0xbd58e0",
+            "0xbcd370",
+            "0xbe8d30"
+        ]
+    },
+    "0xbd58e0": {
+        "Kind": "LambdaExpr",
+        "Children": [
+            "0xbcfd20",
+            "0xbd52b0",
+            "0xbd5470"
+        ]
+    },
+    "0xbcfd20": {
+        "Kind": "FunctionType",
+        "Children": [
+            "0xbcfc30",
+            "0xbd4350",
+            "0xbc1170",
+            "0xba7c20"
+        ]
+    },
+    "0xbcfc30": {
+        "Kind": "Types",
+        "Children": [
+            "0xbc3640",
+            "0xbcf3f0"
+        ]
+    },
+    "0xbcf3f0": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbb5530",
+            "0xb77fd0",
+            "0xbcf2f0"
+        ]
+    },
+    "0xbb5530": {
+        "Kind": "StringValue",
+        "Value": "type"
+    },
+    "0xbcf2f0": {
+        "Kind": "Types",
+        "Children": [
+            "0xbd4350"
+        ]
+    },
+    "0xbd52b0": {
+        "Kind": "LambdaReference",
+        "Children": [
+            "0xbcfd20",
+            "0xbcf740"
+        ]
+    },
+    "0xbcf740": {
+        "Kind": "StringValue",
+        "Value": "num_cast"
+    },
+    "0xbd5470": {
+        "Kind": "LambdaDefinition",
+        "Children": [
+            "0xbd5380"
+        ]
+    },
+    "0xbd5380": {
+        "Kind": "LambdaBinding",
+        "Children": [
+            "0xbd52b0",
+            "0xbe3fa0"
+        ]
+    },
+    "0xbe3fa0": {
+        "Kind": "Lambda",
+        "Children": [
+            "0xbcfd20",
+            "0xbe4080",
+            "0xbe3f00"
+        ]
+    },
+    "0xbe4080": {
+        "Kind": "Parameters",
+        "Children": [
+            "0xbf4230",
+            "0xbe3e20"
+        ]
+    },
+    "0xbf4230": {
+        "Kind": "Variable",
+        "Children": [
+            "0xbc4650",
+            "0xbd50b0"
+        ]
+    },
+    "0xbe3e20": {
+        "Kind": "Variable",
+        "Children": [
+            "0xbf1880",
+            "0xbc1170"
+        ]
+    },
+    "0xbf1880": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbc4580",
+            "0xb77fd0",
+            "0xbf17e0"
+        ]
+    },
+    "0xbf17e0": {
+        "Kind": "Types",
+        "Children": [
+            "0xbcf3f0",
+            "0xbc3ff0",
+            "0xbc3ff0",
+            "0xbc5110"
+        ]
+    },
+    "0xbe3f00": {
+        "Kind": "CompoundStmt",
+        "Children": [
+            "0xbf4130"
+        ]
+    },
+    "0xbf4130": {
+        "Kind": "ReturnStmt",
+        "Children": [
+            "0xbf40a0"
+        ]
+    },
+    "0xbf40a0": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbd0120",
+            "0xbf2ac0"
+        ]
+    },
+    "0xbf2ac0": {
+        "Kind": "CastExpr",
+        "Children": [
+            "0xbd4350",
+            "0xbf2a20"
+        ]
+    },
+    "0xbf2a20": {
+        "Kind": "CallExpr",
+        "Children": [
+            "0xbc3640",
+            "0xbb6190",
+            "0xbe4120"
+        ]
+    },
+    "0xbe4120": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbbe770",
+            "0xbf4230"
+        ]
+    },
+    "0xbcd370": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbc4650",
+            "0xbcd410"
+        ]
+    },
+    "0xbcd410": {
+        "Kind": "CallExpr",
+        "Children": [
+            "0xbd4350",
+            "0xbe6470",
+            "0xbd9770",
+            "0xbec210"
+        ]
+    },
+    "0xbe6470": {
+        "Kind": "Literal",
+        "Children": [
+            "0xbebbc0",
+            "0xbf0990"
+        ]
+    },
+    "0xbebbc0": {
+        "Kind": "FunctionType",
+        "Children": [
+            "0xbf08b0",
+            "0xbc3640",
+            "0xbc1170",
+            "0xba7c20"
+        ]
+    },
+    "0xbf08b0": {
+        "Kind": "Types",
+        "Children": [
+            "0xbc3640",
+            "0xbc3640"
+        ]
+    },
+    "0xbf0990": {
+        "Kind": "StringValue",
+        "Value": "gen_add"
+    },
+    "0xbd9770": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbc4650",
+            "0xbec0e0"
+        ]
+    },
+    "0xbec0e0": {
+        "Kind": "CallExpr",
+        "Children": [
+            "0xbd4350",
+            "0xbd58e0",
+            "0xbd9630",
+            "0xbe7ae0"
+        ]
+    },
+    "0xbd9630": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbc4650",
+            "0xbd96d0"
+        ]
+    },
+    "0xbd96d0": {
+        "Kind": "CallExpr",
+        "Children": [
+            "0xbc3640",
+            "0xbb6190",
+            "0xbcee90"
+        ]
+    },
+    "0xbcee90": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbbe770",
+            "0xbcddb0"
+        ]
+    },
+    "0xbe7ae0": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbf1880",
+            "0xbd5bd0"
+        ]
+    },
+    "0xbd5bd0": {
+        "Kind": "Literal",
+        "Children": [
+            "0xbcf3f0",
+            "0xbb5690"
+        ]
+    },
+    "0xbb5690": {
+        "Kind": "StringValue",
+        "Value": "type_literal"
+    },
+    "0xbec210": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbc4650",
+            "0xbcd2d0"
+        ]
+    },
+    "0xbcd2d0": {
+        "Kind": "CallExpr",
+        "Children": [
+            "0xbd4350",
+            "0xbb6190",
+            "0xbec180"
+        ]
+    },
+    "0xbec180": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbbe770",
+            "0xbe6ac0"
+        ]
+    },
+    "0xbe8d30": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbf1880",
+            "0xbe6e70"
+        ]
+    },
+    "0xbe6e70": {
+        "Kind": "Literal",
+        "Children": [
+            "0xbebb10",
+            "0xbb5690"
+        ]
+    },
+    "0xbebb10": {
+        "Kind": "GenericType",
+        "Children": [
+            "0xbb5530",
+            "0xb77fd0",
+            "0xbc39b0"
+        ]
+    },
+    "0xbc39b0": {
+        "Kind": "Types",
+        "Children": [
+            "0xbc3640"
+        ]
+    },
+    "0xbcd610": {
+        "Kind": "ReturnStmt",
+        "Children": [
+            "0xbce810"
+        ]
+    },
+    "0xbce810": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbe93b0",
+            "0xbcddb0"
+        ]
+    },
+    "0xa6b940": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbe93b0",
+            "0xa6b9e0"
+        ]
+    },
+    "0xa6b9e0": {
+        "Kind": "CallExpr",
+        "Children": [
+            "0xbb8360",
+            "0xbb6190",
+            "0xb9dce0"
+        ]
+    },
+    "0xb9dce0": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbbe770",
+            "0xb9db40"
+        ]
+    },
+    "0xa6ba80": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbd0120",
+            "0xb9df40"
+        ]
+    },
+    "0xb9d770": {
+        "Kind": "CallExpr",
+        "Children": [
+            "0xbc1360",
+            "0xa553d0"
+        ]
+    },
+    "0xa553d0": {
+        "Kind": "Literal",
+        "Children": [
+            "0xb9d140",
+            "0xb9d4b0"
+        ]
+    },
+    "0xb9d140": {
+        "Kind": "FunctionType",
+        "Children": [
+            "0xba7c20",
+            "0xbc1360",
+            "0xbc1170",
+            "0xba7c20"
+        ]
+    },
+    "0xb9d4b0": {
+        "Kind": "StringValue",
+        "Value": "merge_all"
+    },
+    "0xb9fbc0": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xb78bc0",
+            "0xc3eed0"
+        ]
+    },
+    "0xbcb740": {
+        "Kind": "ReturnStmt",
+        "Children": [
+            "0xbc4390"
+        ]
+    },
+    "0xbc4390": {
+        "Kind": "Declaration",
+        "Children": [
+            "0xbb8360",
+            "0xbc4200"
+        ]
+    }
+}
