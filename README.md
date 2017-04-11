@@ -9,3 +9,5 @@ Insieme is used to transform hardware independent parallel C code implemented wi
 | exp4   | Mapping from OpenMP's _atomic_ section to INSPIRE |
 | exp5   | Mapping from OpenMP's work-sharing with variable synchronization to INSPIRE |
 | exp6   | Mapping from OpenMP's work-sharing with loop-carried dependency to INSPIRE |
+| exp7   | Mapping from OpenMP's work-sharing and reduction of loop-carried dependency to INSPIRE |
+| exp8   | Mapping from OpenMP's synchronization using barriers to INSPIRE |
