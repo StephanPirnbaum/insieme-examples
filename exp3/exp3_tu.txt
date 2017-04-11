@@ -1,0 +1,15 @@
+TU(
+	Types:
+		,
+	Globals:
+		global_omp_critical_lock_default:ref<lock,f,f,plain> => <uninitalized>,
+	Initializer:
+		AP(lock_init(global_omp_critical_lock_default)),
+	Functions:
+		IMP_printCritical : ((int<4>)->unit) => AP(rec IMP_printCritical.{IMP_printCritical=fun(ref<int<4>,f,f,plain> v1) {IMP_printf(rec ptr_from_array.{ptr_from_array=fun(ref<ref<array<'a,'s>,'c,'v,plain>,f,f,plain> v0) {return tuple(ref_reinterpret(ref_deref(v0), type<array<'a,inf>>),0);}}("Thread: #(%d)"), varlist_pack(tuple(ref_deref(v1))));}})
+		IMP_main : (()->int<4>) => AP(rec IMP_main.{IMP_main=fun() {{merge(parallel(job (bind(){rec _ins_omp_parallel_0.{_ins_omp_parallel_0=fun() {{IMP_printf(rec ptr_from_array.{ptr_from_array=fun(ref<ref<array<'a,'s>,'c,'v,plain>,f,f,plain> v0) {return tuple(ref_reinterpret(ref_deref(v0), type<array<'a,inf>>),0);}}("Concurrent Printing Thread: #(%d)"), varlist_pack(tuple(rec num_cast.{num_cast=fun(ref<'a,f,f,plain> v0, ref<type<'b>,f,f,plain> v1) {return cast<'b>(ref_deref(v0));}}(get_thread_id(0), type<int<4>>)))); lock_acquire(global_omp_critical_lock_default); IMP_printCritical(rec num_cast.{num_cast=fun(ref<'a,f,f,plain> v0, ref<type<'b>,f,f,plain> v1) {return cast<'b>(ref_deref(v0));}}(get_thread_id(0), type<int<4>>)); lock_release(global_omp_critical_lock_default);}; merge_all();}}()})));}; return 0;}}),
+	Entry Points:
+		{},
+	is C++:
+		1
+)
