@@ -1,0 +1,14 @@
+TU(
+	Types:
+		,
+	Globals:
+		,
+	Initializer:
+		,
+	Functions:
+		IMP_main : (()->int<4>) => AP(rec IMP_main.{IMP_main=fun() {ref<int<4>,f,f,plain> v1 = 0; {merge(parallel(job (bind(){rec _ins_omp_parallel_0.{_ins_omp_parallel_0=fun(ref<ref<int<4>,f,f,plain>,f,f,plain> v0) {{rec atomic_fetch_and_add.{atomic_fetch_and_add=fun(ref<ref<'a,f,'v,plain>,f,f,plain> v0, ref<'a,f,f,plain> v1) {return rec atomic.{atomic=fun(ref<ref<'a,f,'v,plain>,f,f,plain> v0, ref<(('a)=>bool),f,f,plain> v1, ref<(('a)=>'a),f,f,plain> v2) {'a v3 = ref_deref(ref_deref(v0)); if(ref_deref(v1)(ref_deref(ref_deref(v0)))) {ref_assign(ref_deref(v0), ref_deref(v2)(ref_deref(ref_deref(v0))));} else {}; return v3;}}(ref_deref(v0), bind(v2){rec id.{id=fun(ref<'a,f,f,plain> v0) {return ref_deref(v0);}}(true)}, bind(v3){gen_add(v3, ref_deref(v1))});}}(ref_deref(v0), 1);}; merge_all();}}(v1)})));}; return 0;}}),
+	Entry Points:
+		{},
+	is C++:
+		1
+)
